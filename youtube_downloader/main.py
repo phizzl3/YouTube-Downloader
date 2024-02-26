@@ -19,6 +19,8 @@ def get_filename() -> str:
     return input(": ")
 
 def generate_file_output(filename: str) -> str:
+    if not filename:
+        filename = "YouTube Download"
     return f"{OUT_FOLDER}/{filename}.mp4"
 
 def run_command(url: str, file_output: str) -> None:
