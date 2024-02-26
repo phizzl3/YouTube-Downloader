@@ -17,6 +17,10 @@ def ascii_art(version: str) -> None:
                                                                              """
     print(art)
 
+def output_message(file_location: str) -> None:
+    print(f"\n File saved to:\n '{file_location}'")
+    input("\n Press Enter to close.")
 
 if __name__ == "__main__":
     ascii_art("1234")
+    output_message("/Volumes/Test/test.mp4")
