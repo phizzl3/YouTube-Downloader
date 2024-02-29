@@ -24,7 +24,7 @@ def ascii_art(version: str) -> None:
 
 def output_message(file_location: str) -> None:
     print(f"\n File saved to:\n '{file_location}'")
-    input("\n Press Enter to close.")
+    input("\n Press Enter to continue.")
 
 
 if __name__ == "__main__":
