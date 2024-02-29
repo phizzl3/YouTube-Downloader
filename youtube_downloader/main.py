@@ -10,7 +10,7 @@ import subprocess
 from modules.settings import OUT_FOLDER
 from modules import display
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 
 def get_url() -> str:
