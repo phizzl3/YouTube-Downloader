@@ -36,10 +36,11 @@ def run_command(url: str, file_output: str) -> None:
 
 
 if __name__ == "__main__":
-    display.ascii_art(__version__)
-    video_url = get_url()
-    filename = get_filename()
-    output = generate_file_output(filename)
-    run_command(url=video_url, file_output=output)
-    display.output_message(file_location=output)
-    
+    while True:
+        display.ascii_art(__version__)
+        video_url = get_url()
+        filename = get_filename()
+        output = generate_file_output(filename)
+        run_command(url=video_url, file_output=output)
+        display.output_message(file_location=output)
+        
